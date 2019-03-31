@@ -1,0 +1,24 @@
+.posts {
+  margin-bottom: 20px;
+  
+}
+
+.post__title {
+  color: $color-link;
+  font-size: 1.9em;
+  padding-top: 15px;
+  border-top: 1px solid #f3f3f3;
+}
+.posts__desc {
+  margin-bottom: 20px;
+}
+.posts__desc p {
+  text-align: justify;
+  font-size: 0.9em;
+  line-height: 1.7em;
+  padding-top: 20px;
+  padding-bottom: 20px;  
+}
+.post__link {
+  color: $color-link;
+}

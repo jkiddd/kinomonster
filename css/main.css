@@ -605,7 +605,7 @@ input, textarea {
   margin-right: 10px;
 }
 
-.films {
+.films, .serial {
   margin-bottom: 5%;
 }
 
@@ -640,6 +640,33 @@ input, textarea {
      object-fit: contain;
   border-radius: 5px;
   border: 5px solid #dad7d5;
+}
+
+.posts {
+  margin-bottom: 20px;
+}
+
+.post__title {
+  color: #aeb002;
+  font-size: 1.9em;
+  padding-top: 15px;
+  border-top: 1px solid #f3f3f3;
+}
+
+.posts__desc {
+  margin-bottom: 20px;
+}
+
+.posts__desc p {
+  text-align: justify;
+  font-size: 0.9em;
+  line-height: 1.7em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.post__link {
+  color: #aeb002;
 }
 
 .footer {
