@@ -579,7 +579,28 @@ input, textarea {
   display: flex;
 }
 
+.rating__text {
+  width: 90%;
+  padding-right: 10px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.rating__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .rating__sidbar {
   color: #000;
+  width: 10%;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
