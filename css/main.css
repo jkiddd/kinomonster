@@ -437,7 +437,7 @@ input, textarea {
 }
 
 .footer {
-  background-color: #1a1918;
+  background-color: darkslateblue;
   height: 200px;
   margin-top: -200px;
   min-width: 920px;
@@ -602,5 +602,45 @@ input, textarea {
   color: #000;
   width: 10%;
   text-decoration: none;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu--footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+}
+
+.menu--border {
+  border-right: 1px solid  #aeb002;
+}
+
+.menu--border:last-child {
+  border-right: none;
+}
+
+.menu--color {
+  color: #aeb002;
+}
+
+.copy__text {
+  color: #aeb002;
+  text-align: center;
+  font-size: 0.9em;
 }
 /*# sourceMappingURL=main.css.map */

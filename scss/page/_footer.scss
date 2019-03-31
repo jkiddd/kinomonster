@@ -1,0 +1,26 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+} 
+
+.menu--footer {
+  justify-content: center;
+  margin-bottom: 25px; 
+  
+}
+.menu--border {
+  border-right:1px solid  #aeb002;;
+  &:last-child {
+    border-right: none;
+  }
+}
+.menu--color {
+  color: #aeb002; 
+}
+.copy__text {
+  color: #aeb002; 
+  text-align: center;
+  font-size: 0.9em;
+}

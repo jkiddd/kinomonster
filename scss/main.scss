@@ -1,6 +1,6 @@
 // // var
 $body-color:#fff;
-$footer-color:#1a1918;
+$footer-color:darkslateblue;
 // цвет кноки
 $color-btn: #ff9d00;
 // цвет текста subtitle
@@ -22,6 +22,8 @@ $color-serction:#f4f4f4;
 @import '_misc/adjusment';
 @import 'page/header';
 @import 'page/sidebar';
+
+@import 'page/footer';
 
 
 
