@@ -514,14 +514,6 @@ input, textarea {
   display: flex;
 }
 
-.main__left {
-  width: 65%;
-}
-
-.main__rigth {
-  width: 35%;
-}
-
 input[type="text"], input[type="password"], input[type="search"] {
   color: #5d5d5d;
   width: 70%;
@@ -531,6 +523,10 @@ input[type="text"], input[type="password"], input[type="search"] {
 
 input, textarea {
   border: 1px solid #f2f2f2;
+}
+
+.main__rigth {
+  width: 30%;
 }
 
 .sidebar {
@@ -602,6 +598,48 @@ input, textarea {
   color: #000;
   width: 10%;
   text-decoration: none;
+}
+
+.main__left {
+  width: 70%;
+  margin-right: 10px;
+}
+
+.films {
+  margin-bottom: 5%;
+}
+
+.title {
+  font-size: 1.9em;
+  margin-bottom: 3%;
+}
+
+.films__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.films__link {
+  margin-left: 7px;
+}
+
+.films__link:nth-child(4n+1) {
+  margin-left: 0;
+}
+
+.films__pic {
+  width: 150px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+  border: 5px solid #dad7d5;
 }
 
 .footer {

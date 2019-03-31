@@ -1,0 +1,29 @@
+.main__left {
+  width: 70%;
+  margin-right: 10px;
+}
+.films {
+  margin-bottom: 5%;
+}
+.title {
+  font-size: 1.9em;
+  margin-bottom: 3%;
+}
+.films__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.films__link {
+  margin-left: 7px;
+  &:nth-child(4n+1) {
+    margin-left: 0;
+  }
+}
+.films__pic {
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 5px;
+  border: 5px solid #dad7d5;
+}
