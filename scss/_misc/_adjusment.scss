@@ -1,6 +1,6 @@
 /* var */
-$footer-heigth:345px;
-$conteiner-min-width:1460px;
+$footer-heigth:200px;
+$conteiner-min-width:900px;
 
 * {
     box-sizing: border-box;
@@ -40,44 +40,45 @@ ul {
     width: $conteiner-min-width;
 }
 // Прибитие футера статической верстки
-// .wrapper {
-//     overflow: hidden;
-//     min-width: $conteiner-min-width+20px;
-//     min-height: 100%;
-// }
 
-// .wrapper:after{
-//     content: "";
-//     display: block;
-//     height: $footer-heigth;
-// }
+.wrapper {
+    overflow: hidden;
+    min-width: $conteiner-min-width+20px;
+    min-height: 100%;
+}
 
-// .clearfix:after {
-//     content: "";
-//     display: block;
-//     clear: both;
-// }
+.wrapper:after{
+    content: "";
+    display: block;
+    height: $footer-heigth;
+}
 
-// .footer {
-// background-color: $footer-color;
-// height: $footer-heigth;
-// margin-top: -$footer-heigth;
-// min-width: $conteiner-min-width+20px;
-// }
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer {
+background-color: $footer-color;
+height: $footer-heigth;
+margin-top: -$footer-heigth;
+min-width: $conteiner-min-width+20px;
+}
 
 // ПРИБИТИЕ ФУТЕРА НА ФЛЕКСАХ
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    overflow: hidden;
-    min-width: $conteiner-min-width+20px;
-    position: relative;
-}
-.footer {
-    height: $footer-heigth;
-    background-color: $footer-color;
-    margin-top: auto;
-    min-width: $conteiner-min-width+20px;
-}
+// .wrapper {
+//     display: flex;
+//     flex-direction: column;
+//     min-height: 100vh;
+//     overflow: hidden;
+//     min-width: $conteiner-min-width+20px;
+//     position: relative;
+// }
+// .footer {
+//     height: $footer-heigth;
+//     background-color: $footer-color;
+//     margin-top: auto;
+//     min-width: $conteiner-min-width+20px;
+// }
