@@ -439,6 +439,7 @@ ul {
 
 .header {
   background-color: darkslateblue;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -499,5 +500,27 @@ ul {
 
 .menu__link:hover {
   color: #e4ec04;
+}
+
+.main__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__left {
+  width: 65%;
+}
+
+.main__rigth {
+  width: 35%;
+}
+
+.search {
+  padding: 5%;
+  margin-bottom: 16px;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  background-color: #f9f9f9;
 }
 /*# sourceMappingURL=main.css.map */
