@@ -481,14 +481,23 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.menu--acktiv .menu__link {
+  color: #aeb002;
 }
 
 .menu__link {
   color: #fff;
   font-family: 'trebuchet ms', sans-serif;
   font-weight: normal;
+  padding: 6px 35px 5px 28px;
+}
+
+.menu__link:hover {
+  color: #e4ec04;
 }
 /*# sourceMappingURL=main.css.map */
