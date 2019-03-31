@@ -1,6 +1,6 @@
 .header {
   background-color: darkslateblue;
-  height: 177px;
+  // height: 177px;
 }
 .logo {
   padding-bottom: 40px;
@@ -26,4 +26,19 @@
 
 .logo__subtitle-link {
   color: #999;
+}
+.nav {
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.menu__link {
+  color: #fff;
+  font-family: 'trebuchet ms', sans-serif;
+  font-weight: normal;
 }
