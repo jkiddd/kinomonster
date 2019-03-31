@@ -1,7 +1,15 @@
+input[type="text"], input[type="password"], input[type="search"] {
+  color: #5d5d5d;
+  width: 70%;
+  padding: 8px;
+}
+input, textarea {
+  border: 1px solid #f2f2f2;
+}
+
 .header {
   background-color: darkslateblue;
   margin-bottom: 20px;
-  // height: 177px;
 }
 .logo {
   padding-bottom: 40px;
@@ -66,4 +74,10 @@
   border: 1px solid #f2f2f2;
   border-radius: 5px;
   background-color: #f9f9f9;
+}
+// стиль для кнопки
+.btn {
+  padding: 8px 10px;
+  background-color: white;
+  cursor: pointer;
 }
