@@ -441,4 +441,35 @@ ul {
   background-color: darkslateblue;
   height: 177px;
 }
+
+.logo {
+  padding-bottom: 40px;
+}
+
+.logo__title, .logo__subtitle {
+  font-family: 'century gothic',Arial, sans-serif;
+  font-weight: normal;
+  margin: 0 0 0 9px;
+}
+
+.logo__title {
+  padding: 22px 0 0 0;
+}
+
+.logo__title-link {
+  color: #fff;
+}
+
+.logo__title-link:hover {
+  color: #999;
+}
+
+.logo__subtitle {
+  font-size: 0.9em;
+  padding: 4px 0 0 0;
+}
+
+.logo__subtitle-link {
+  color: #999;
+}
 /*# sourceMappingURL=main.css.map */
