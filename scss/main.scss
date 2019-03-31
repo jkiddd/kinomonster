@@ -9,6 +9,10 @@ $color-text:#999;
 $color-text-hover:#e4ec04;
 // цвет заглавного цвета
 $color-title:#ff9d00;
+//цвет ссылки 
+$color-link:#aeb002;
+
+
 // цвет секции 
 $color-serction:#f4f4f4;
 
@@ -17,6 +21,7 @@ $color-serction:#f4f4f4;
 @import '_misc/fonts';
 @import '_misc/adjusment';
 @import 'page/header';
+@import 'page/sidebar';
 
 
 
