@@ -18,6 +18,13 @@
    border-radius: 5px;
    border: 5px solid #dad7d5;
 }
+.film-block-pic {
+   width: 150px;
+   height: 200px; 
+   object-fit: cover;
+   border-radius: 5px;
+   border: 5px solid #dad7d5;
+}
 .film-block__text {
    border-bottom: 1px solid #f3f3f3;
    padding-bottom: 20px; 
@@ -27,4 +34,5 @@
    font-size: 0.9em;
    line-height: 1.7em;
    text-align: justify;
+   margin-top: 0;
 }

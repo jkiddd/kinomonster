@@ -1,0 +1,32 @@
+.film-page {
+   padding: 4%;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   background-color: #f9f9f9;
+ 
+} 
+.film-page__wrapper {
+   display: flex;   
+}
+.btn--films {
+   align-content: flex-end;
+}
+.film-page-pic {
+   margin-right: 2%;
+}
+.film-page__img {
+   width: 150px;
+   height: 200px; 
+   object-fit: cover;
+   border-radius: 5px;
+   border: 5px solid #dad7d5;
+  
+}
+.film-page__text p {
+   margin-top: 0;
+}
+.film-page__btn {
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+}
