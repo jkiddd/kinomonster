@@ -1,0 +1,30 @@
+
+.info {
+   display: flex;
+   justify-content: flex-start;
+   margin: 20px 0 20px 0; 
+   border-bottom: 1px solid #f3f3f3;
+   padding-bottom: 20px; 
+}
+.info__desc {
+   padding-right: 10px;
+}
+.color {
+   color: $color-link;
+}
+.film-block__text img {
+   float: left;
+   margin-right: 10px;   
+   border-radius: 5px;
+   border: 5px solid #dad7d5;
+}
+.film-block__text {
+   border-bottom: 1px solid #f3f3f3;
+   padding-bottom: 20px; 
+   margin-bottom: 20px;
+}
+.film-block__text p {
+   font-size: 0.9em;
+   line-height: 1.7em;
+   text-align: justify;
+}
