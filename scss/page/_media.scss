@@ -18,7 +18,9 @@
   .footer {
     min-width: 0px;
   }
-  
+  iframe {
+    width: 100%;
+  }
 // конец стилей медия
 }
 @media screen and (max-width: 768px){
@@ -36,6 +38,7 @@
 .main__rigth {
   width: 0;
 }
+
 // конец стилей медия
 }
 
