@@ -9,6 +9,12 @@
     width: 100%;
     padding: 0 3%;
   }
+  .films__content {
+    justify-content: space-between;
+  }
+  .films__link {
+    margin-left: 0;
+  }
   .footer {
     min-width: 0px;
   }
@@ -16,7 +22,12 @@
 // конец стилей медия
 }
 @media screen and (max-width: 768px){
-.sidebar {
+  .menu__link {
+    padding: 6px 5px 5px 11px; 
+  }
+ 
+  
+  .sidebar {
   display: none;
 }
 .main__left {
@@ -40,6 +51,9 @@
   justify-content: center;
   align-items: center;
 }
+.menu__link {
+  padding: 0;
+}
 .menu {
   justify-content: center;
   align-items: center;
@@ -52,8 +66,11 @@
 .films__link {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
- 
+  margin-bottom: 10px; 
+}
+.films__pic {
+  width: 173px;
+  height: 231px; 
 }
 .films__link:nth-child(4n+1) {
  margin-left: auto; 
@@ -71,18 +88,12 @@
 .posts__desc p {
   text-align: center; 
 }
-.footer {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
+
 .menu--border {
   border-right: none;
 }
 
-.films__pic {
-  width: 173px;
-  height: 231px; 
-}
+
 
 .copy__text {
   font-size: 0.7em;
@@ -91,7 +102,10 @@
   margin-bottom: 0;
 }
 
-
+.footer {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
 
   // конец стилей медия
