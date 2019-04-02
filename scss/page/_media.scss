@@ -50,10 +50,15 @@
 }
 
 .films__link {
-  margin-left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+ 
 }
-.main__left {
-  
+.films__link:nth-child(4n+1) {
+ margin-left: auto; 
+}
+.main__left {  
    margin-left: 0px;
 }
 .title {
@@ -73,6 +78,12 @@
 .menu--border {
   border-right: none;
 }
+
+.films__pic {
+  width: 173px;
+  height: 231px; 
+}
+
 .copy__text {
   font-size: 0.7em;
 }
