@@ -14,6 +14,7 @@
   }
   .films__link {
     margin-left: 0;
+    margin-bottom: 10px;
   }
   .footer {
     min-width: 0px;
@@ -28,7 +29,7 @@
     padding: 6px 5px 5px 11px; 
   }
  
-  
+
   .sidebar {
   display: none;
 }
@@ -69,7 +70,7 @@
 .films__link {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px; 
+ 
 }
 .films__pic {
   width: 173px;
@@ -109,8 +110,13 @@
   padding-bottom: 10px;
   padding-top: 10px;
 }
+// стилизация страницы фильма
+.film-page__wrapper {
 
-
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+}
   // конец стилей медия
 }
   
